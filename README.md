@@ -14,6 +14,8 @@ SDK放在了 E:/SDK 并且设置了用户环境变量 ANDROID_SDK_HOME 为 该�
 .gradle文件 放并设置在了E:/Android/Configuration下 (完全路径 E:/Android/Configuration/.gradle)<br>
 .android文件 放在了E:/SDK下 (完全路径 E:/SDK/.android)<br>
 本人这些配置出于C盘空间不足的原因进行配置，可以根据个人喜好决定是否搬迁文件(推荐搬了)<br>
+导入本项目后，需修改相关配置，请注意<br>
+程序主要代码的位置在app/src/main中，如果你熟悉Android开发那么这点不需要我说明<br>
 <br>
 <br>
 ## 程序运行的提示
@@ -23,7 +25,6 @@ SDK放在了 E:/SDK 并且设置了用户环境变量 ANDROID_SDK_HOME 为 该�
 在AVD manager中对你用的AVD右击进行Cold Boot Now<br>
 
 每次调试不关闭AVD也是很香的，每次就re-run就行了<br>
-导入本项目后，需修改相关配置，请注意<br>
 <br>
 <br>
 ## 遇到的一些Error及解决方案
