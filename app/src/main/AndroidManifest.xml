@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.activitytest">
+<!-- manifest已经指定了程序的包名 -->
+    <application
+        android:fullBackupContent="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ActivityTest">
+<!--    项目的所有Activity在这里注册    -->
+<!--    activity的name是类名com.example.activitytest.FirstActivity的缩写    -->
+<!--    程序需要配置主Activity才能运行(首先启动)，加入intent-filter    -->
+<!--    无主activity的程序一般是作为第三方服务内部使用    -->
+        <activity
+            android:name=".FirstActivity"
+            android:label="First Activity this is"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

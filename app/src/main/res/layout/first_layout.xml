@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 以LinearLayout作为根元素 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<!-- xml中通过@+id/ 来定义, 通过@id/来引用 -->
+<!-- wrap_content表示当前元素的高度刚好包含内容   -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PressBtn"
+        android:text="@string/press"
+    />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xiangwan" />
+
+</LinearLayout>
